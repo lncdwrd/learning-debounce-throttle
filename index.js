@@ -1,3 +1,13 @@
+/**
+ * Uses:
+ * Throttling a button click so we can’t spam click
+ * Throttling an API call
+ * Throttling a mousemove/touchmove event handler
+ * Debouncing a resize event handler
+ * Debouncing a scroll event handler
+ * Debouncing a save function in an autosave feature
+ */
+
 const debounce = (func, delay) => {
   let timerId;
   return function () {
